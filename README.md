@@ -5,3 +5,14 @@ each color for the grass side texture is a separate texture.
 
 The script is very bare bones, and straight to the point, so excuse the ugly interface and lack of 
 options. Currently only works on 16 x 16 textures.
+
+## How to use
+1. Open GIMP, and go to Edit > Preferences.
+2. Press the + next to "Folders", and select "Scripts".
+3. Download the script, and put it in the first folder shown (it should be in your User folder), then press OK.
+4. Go to Filters > Script-Fu > Refresh Scripts.
+5. Import your normal/carried grass side block PNG, then import your monochrome grass side block image on top of that (the monochrome image should be layered on top of the normal one).
+6. Open Colors > MC-Colorizer.
+7. Press on the Color box, paste the color you want in the Color Selection prompt, and press OK.
+8. Once the program has colored your block, go to File > Export As..., and export your image (it should be a PNG).
+9. If you want to make more grass blocks, undo the color by pressing CTRL + Z, and repeat steps 6-8.
