@@ -16,3 +16,23 @@ options. Currently only works on 16 x 16 textures.
 7. Press on the Color box, paste the color you want in the Color Selection prompt, and press OK.
 8. Once the program has colored your block, go to File > Export As..., and export your image (it should be a PNG).
 9. If you want to make more grass blocks, undo the color by pressing CTRL + Z, and repeat steps 6-8.
+
+## Grass block colors
+- Forest - #79c05a
+- Windswept - #8ab689
+- Savanna - #bfb755
+- Jungle - #59c93c
+- Mushroom - #55c93f
+- Birch Forest - #88bb67
+- Old Growth Pine Taiga - #86b87f
+- Sparse Jungle - #64c73f
+- Taiga/Old Growth Spruce Taiga - #86b783
+- Snowy Beach - #83b593
+- Tundra - #80b497
+- Plains - #91bd59
+- Badlands - #90814d
+- Ocean - #8eb971
+- Swamp - #6a7039
+- Dark Oak Forest - #507a32
+
+These colors are in Minecraft 3DS's terrain atlas (in order).
