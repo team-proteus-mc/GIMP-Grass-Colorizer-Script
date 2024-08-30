@@ -13,40 +13,41 @@ This script _**requires GIMP**_
 
 
 ## How To Use
+
 ### Installing
 1. Open GIMP, and go to `Edit`>`Preferences`
 2. On the left side, at the bottom of the list, press the + next to `Folders` and select `Scripts`
-3. Download the script you'd like, and put it in the first folder shown
+3. Download the script you'd like, and put it in the first folder shown \*
+4. Go to `Filters`>`Script-Fu`>`Refresh Scripts`
 
-   The script folder should be within a user folder like `/home/[name]/...` or `C:\Users\[Name]\...`
-5. Go to `Filters`>`Script-Fu`>`Refresh Scripts`
-
+\* The script folder should be within a user folder such as `/home/[username]/...` or `C:\Users\[Username]\...`
 
 ### Using script-fu-mc-colorizer
 1. Import any color of grass block side texture (16 by 16 only)
 2. Import the uncolored grass side overlay texture, then add it as a separate layer on top of the first texture
-3. Check [Important Notes](#important-notes)
+3. Please check [Important Notes](#important-notes) before proceeding
 4. Open `Colors`>`MC-Colorizer`>`MC-Colorizer`
-5. Click on the Color box, and paste the color you want in the Color Selection prompt, and press OK
-6. Once the program has colored your block, go to `File`>`Export As...`, and export your image (it should be a PNG)
-7. If you want to make more grass textures, undo the color by pressing CTRL + Z, and repeat steps 4-6 OR if you need all 16
-   colors, use the other script
+5. Click on the Color box, and paste the color you want in the Color Selection prompt, and press OK \*\*
+6. The selected layer will be colorized.
+7. If you need all 16 colors, you should probably use the other script
 
+\*\* Rest assured, this functions as a normal undoable operation, like any other tool.
    
 ### Using script-fu-mc-colorizer-batch
 1. Import any color of grass block side texture (16 by 16 only)
 2. Import the uncolored grass side overlay texture, then add it as a separate layer on top of the first texture
-3. Check [Important Notes](#important-notes)
+3. Please check [Important Notes](#important-notes) before proceeding
 4. Open `Colors`>`MC-Colorizer-Batch`>`Batch MC-Colorizer`
 5. Select the output folder for all 16 grass textures to be exported to
-6. (Optional) Enter in an alternate prefix for the files. Null prefix is an option (Default is `grass_block_side_`)
+6. (Optional) Enter in an alternate prefix for the files. Null prefix is an option (Default is `grass_block_side_`) 
 7. (Optional) Choose whether you want the files to be numbered from 01-16 in the order they appear in the atlas file.
-8. Click OK
+8. Click OK. Note that the operation takes a while to complete, and no changes are made to the source workspace.
 
 
 ## Important Notes
 - Make sure the grass overlay texture is the top layer, and is the active layer (the one selected)
 - Make sure your layers are the same size as your image (cropping the image doesn't always crop layers)
+- If you're using the batch script, it's normal for it to take a while to complete. The entire language is interpreted, so things just take longer.
 - If the script is greyed out, go to `Image`>`Mode` and select `RGB`
 - If the script is still greyed out, right click the background layer and click `Add Alpha Channel`
 
