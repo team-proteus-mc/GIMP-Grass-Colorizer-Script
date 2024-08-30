@@ -1,5 +1,4 @@
 (define (script-fu-mccolorizer-batch img drawmain dirPath prefix numbered)
-	(gimp-image-undo-disable img)
 	(let* 
 		(
 			(i 0)
@@ -30,10 +29,8 @@
 			(set! i (+ i 1))
 		)
 	)
-	(gimp-image-undo-enable img)
 )
 (define (mccolorizer-func img2 srcColor)
-	(gimp-image-undo-disable img2)
 	(let* 
 		(
 			(pos 0) (x 0) (y 0)
@@ -59,7 +56,6 @@
 		(gimp-image-merge-down img2 draw1 0)
 	)	
 	(gimp-selection-none img2)
-	(gimp-image-undo-enable img2)
 )
 (script-fu-register
 "script-fu-mccolorizer-batch"
