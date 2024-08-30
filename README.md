@@ -6,12 +6,14 @@ each color for the grass side texture is a separate texture.
 The script is very bare bones, and straight to the point, so excuse the ugly interface and lack of 
 options. Currently only works on 16 x 16 textures.
 
+Please read the [How To Use](#how-to-use)
 
-## How to use
+
+## How To Use
 ### Installing
 1. Open GIMP, and go to `Edit`>`Preferences`
 2. On the left side, at the bottom of the list, press the + next to `Folders` and select `Scripts`
-3. Download the script, and put it in the first folder shown
+3. Download the script you'd like, and put it in the first folder shown
 
    The script folder should be within a user folder like `/home/[name]/...` or `C:\Users\[Name]\...`
 5. Go to `Filters`>`Script-Fu`>`Refresh Scripts`
