@@ -9,7 +9,7 @@ options. Currently only works on 16 x 16 textures.
 Please read the [How To Use](#how-to-use) and [Important Notes](#important-notes) section, as this 
 script is _very_ picky with how you set up the workspace.
 
-This script _**requires GIMP**_
+This script is _**for GIMP**_
 
 
 ## How To Use
