@@ -18,7 +18,7 @@ options. Currently only works on 16 x 16 textures.
 ### Using script-fu-mc-colorizer
 1. Import any color of grass block side texture (16 by 16 only)
 2. Import the uncolored grass side overlay texture, then add it as a layer on top of the first texture
-3. Check [Important Notes](https://github.com/mc-3ds-team/GIMP-Grass-Colorizer-Script/README.md#important-notes)
+3. Check [Important Notes](#important-notes)
 4. Open `Colors`>`MC-Colorizer`>`MC-Colorizer`
 5. Click on the Color box, and paste the color you want in the Color Selection prompt, and press OK
 6. Once the program has colored your block, go to ( `File` > `Export As...` ), and export your image (it should be a PNG)
@@ -28,7 +28,7 @@ options. Currently only works on 16 x 16 textures.
 ### Using script-fu-mc-colorizer-batch
 1. Import any color of grass block side texture (16 by 16 only)
 2. Import the uncolored grass side overlay texture, then add it as a layer on top of the first texture
-3. Check [Important Notes](https://github.com/mc-3ds-team/GIMP-Grass-Colorizer-Script/README.md#important-notes)
+3. Check [Important Notes](#important-notes)
 4. Open `Colors`>`MC-Colorizer-Batch`>`Batch MC-Colorizer`
 5. Select the output folder for all 16 grass textures to be exported to
 6. (Optional) Enter in an alternate prefix for the files. Null prefix is an option (Default is "grass_block_side_")
