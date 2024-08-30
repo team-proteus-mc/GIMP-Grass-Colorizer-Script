@@ -6,7 +6,10 @@ each color for the grass side texture is a separate texture.
 The script is very bare bones, and straight to the point, so excuse the ugly interface and lack of 
 options. Currently only works on 16 x 16 textures.
 
-Please read the [How To Use](#how-to-use)
+Please read the [How To Use](#how-to-use) and [Important Notes](#important-notes) section, as this 
+script is _very_ picky with how you set up the workspace.
+
+This script _**requires GIMP**_
 
 
 ## How To Use
@@ -21,7 +24,7 @@ Please read the [How To Use](#how-to-use)
 
 ### Using script-fu-mc-colorizer
 1. Import any color of grass block side texture (16 by 16 only)
-2. Import the uncolored grass side overlay texture, then add it as a layer on top of the first texture
+2. Import the uncolored grass side overlay texture, then add it as a separate layer on top of the first texture
 3. Check [Important Notes](#important-notes)
 4. Open `Colors`>`MC-Colorizer`>`MC-Colorizer`
 5. Click on the Color box, and paste the color you want in the Color Selection prompt, and press OK
@@ -32,12 +35,12 @@ Please read the [How To Use](#how-to-use)
    
 ### Using script-fu-mc-colorizer-batch
 1. Import any color of grass block side texture (16 by 16 only)
-2. Import the uncolored grass side overlay texture, then add it as a layer on top of the first texture
+2. Import the uncolored grass side overlay texture, then add it as a separate layer on top of the first texture
 3. Check [Important Notes](#important-notes)
 4. Open `Colors`>`MC-Colorizer-Batch`>`Batch MC-Colorizer`
 5. Select the output folder for all 16 grass textures to be exported to
 6. (Optional) Enter in an alternate prefix for the files. Null prefix is an option (Default is `grass_block_side_`)
-7. (Optional) Choose whether you want the files to be numbered in the order they appear in the atlas file.
+7. (Optional) Choose whether you want the files to be numbered from 01-16 in the order they appear in the atlas file.
 8. Click OK
 
 
