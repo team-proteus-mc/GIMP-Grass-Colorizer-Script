@@ -23,7 +23,7 @@ options. Currently only works on 16 x 16 textures.
 - Savanna - #bfb755
 - Jungle - #59c93c
 - Mushroom - #55c93f
-- Birch Forest - #88bb67
+- Birch Forest - #88bb66
 - Old Growth Pine Taiga - #86b87f
 - Sparse Jungle - #64c73f
 - Taiga/Old Growth Spruce Taiga - #86b783
