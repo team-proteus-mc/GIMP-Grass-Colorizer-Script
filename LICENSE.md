@@ -1,8 +1,8 @@
 # All Rights Reserved
 
-Any further mention of the exclusive form of "we," "us" or "our," refers to the members of the github organization listed on this page: [\(mc-3ds-team\)](https://github.com/mc-3ds-team)
+Any further mention of the exclusive form of "we," "us" or "our," refers to the members of the github organization listed on this page: [\(team-proteus-mc\)](https://github.com/team-proteus-mc)
 
-We give you automatic permission to use or modify this content for personal use _only_. 
+We give you automatic permission to use or modify this content for personal use _only_.
 
 You are not allowed to publicly or privately distribute any content made available on this repository that is _not directly_ owned by us, 
 whether modified or original, without explicit permission from the rightful owners of the content made available on this repository.
