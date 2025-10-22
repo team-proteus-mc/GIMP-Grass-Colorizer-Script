@@ -1,5 +1,7 @@
+> [!NOTE] 
+> Last Updated October 22, 2025
+
 # All Rights Reserved
--# Updated Oct-22-2025
 
 Any further mention of "TP" or "Team Proteus" refers to the members of the github organization listed on this page: [\(team-proteus-mc\)](https://github.com/team-proteus-mc)
 Any further mention of the exclusive form of "we," "us" or "our," refers to the members of the github organization listed on this page: [\(team-proteus-mc\)](https://github.com/team-proteus-mc)
